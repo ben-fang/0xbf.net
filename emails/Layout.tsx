@@ -39,7 +39,7 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="Ben"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
@@ -47,39 +47,39 @@ export default function Layout({
                   href="https://cali.so"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>Ben Fang</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者、创始人
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://cali.so/twitter"
+                  href="https://0xbf.net/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
-                <Link
+                {/* <Link
                   href="https://cali.so/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
-                |&nbsp;
+                |&nbsp; */}
                 <Link
-                  href="https://cali.so/github"
+                  href="https://0xbf.net/github"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
-                |&nbsp;
-                <Link
+                {/* |&nbsp;
+                {/* <Link
                   href="https://cali.so/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩
-                </Link>
+                </Link> */} */}
               </Text>
             </Section>
           </Container>

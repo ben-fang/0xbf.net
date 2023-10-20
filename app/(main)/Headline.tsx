@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
 import { SparkleIcon, UserSecurityIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
+// import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
 function Developer() {
@@ -17,28 +17,28 @@ function Developer() {
   )
 }
 
-function Designer() {
-  return (
-    <span className="group relative rounded-2xl bg-black/5 p-1 dark:bg-white/5">
-      <span className="pointer-events-none absolute inset-0 border border-lime-700/90 opacity-70 group-hover:border-dashed group-hover:opacity-100 dark:border-lime-400/90">
-        <span className="absolute -left-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -bottom-0.5 -right-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-      </span>
-      设计师
-    </span>
-  )
-}
+// function Designer() {
+//   return (
+//     <span className="group relative rounded-2xl bg-black/5 p-1 dark:bg-white/5">
+//       <span className="pointer-events-none absolute inset-0 border border-lime-700/90 opacity-70 group-hover:border-dashed group-hover:opacity-100 dark:border-lime-400/90">
+//         <span className="absolute -left-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+//         <span className="absolute -bottom-0.5 -right-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+//         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+//         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+//       </span>
+//       设计师
+//     </span>
+//   )
+// }
 
-function OCD() {
-  return (
-    <span className="group">
-      <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
-    </span>
-  )
-}
+// function OCD() {
+//   return (
+//     <span className="group">
+//       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
+//       <span>细节控</span>
+//     </span>
+//   )
+// }
 
 function Founder() {
   return (
@@ -63,9 +63,7 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
-        <br />
-        <OCD />，<Founder />
+        <Developer />
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -80,10 +78,8 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.cn">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 Ben，
+          我热爱开发，创新，享受生活，以及在未知领域中探索。
         </Balancer>
       </motion.p>
       <motion.div
@@ -125,7 +121,7 @@ export function Headline() {
         /> */}
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="fyz.ben@icloud.com"
           aria-label="我的邮箱"
           platform="mail"
         />

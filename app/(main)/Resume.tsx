@@ -67,7 +67,7 @@ export function Resume() {
         <BriefcaseIcon className="h-5 w-5 flex-none" />
         <span className="ml-2">工作经历</span>
       </h2>
-      <ol className="mt-6 space-y-4">
+      {/* <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
             <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
@@ -105,7 +105,10 @@ export function Resume() {
             </dl>
           </li>
         ))}
-      </ol>
+      </ol> */}
+      <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
+        <span>本科在读，暂无正式工作经历</span>
+      </p>
     </div>
   )
 }
