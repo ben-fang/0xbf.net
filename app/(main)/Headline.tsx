@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
-import { SparkleIcon, UserSecurityIcon } from '~/assets'
+// import { SparkleIcon, UserSecurityIcon } from '~/assets'
 // import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
@@ -40,14 +40,14 @@ function Developer() {
 //   )
 // }
 
-function Founder() {
-  return (
-    <span className="group">
-      <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
-    </span>
-  )
-}
+// function Founder() {
+//   return (
+//     <span className="group">
+//       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
+//       <span>创始人</span>
+//     </span>
+//   )
+// }
 
 export function Headline() {
   return (
