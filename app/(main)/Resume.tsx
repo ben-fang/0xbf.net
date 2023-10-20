@@ -1,64 +1,64 @@
-import Image, { type StaticImageData } from 'next/image'
+// import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
-import abletiveLogo from '~/assets/company/abletive.png'
-import vvsLogo from '~/assets/company/vvs.png'
-import zolplayLogo from '~/assets/company/zolplay.png'
+// import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
+// import abletiveLogo from '~/assets/company/abletive.png'
+// import vvsLogo from '~/assets/company/vvs.png'
+// import zolplayLogo from '~/assets/company/zolplay.png'
 
-type Resume = {
-  company: string
-  title: string
-  start: string | { label: string; dateTime: number }
-  end: string | { label: string; dateTime: number }
-  logo: StaticImageData
-}
-const resume: Resume[] = [
-  {
-    company: '深圳市佐玩信息技术有限公司',
-    title: '创始人 CEO',
-    logo: zolplayLogo,
-    start: '2021',
-    end: {
-      label: '至今',
-      dateTime: new Date().getFullYear(),
-    },
-  },
-  {
-    company: 'very very spaceship',
-    title: '软件工程师',
-    logo: vvsLogo,
-    start: '2018',
-    end: '2020',
-  },
-  {
-    company: '8ninths Inc.',
-    title: 'AR & 全栈工程师',
-    logo: eightNinthsLogo,
-    start: '2017',
-    end: '2018',
-  },
-  {
-    company: 'Abletive',
-    title: '创始人',
-    logo: abletiveLogo,
-    start: '2014',
-    end: '2016',
-  },
-]
+// type Resume = {
+//   company: string
+//   title: string
+//   start: string | { label: string; dateTime: number }
+//   end: string | { label: string; dateTime: number }
+//   logo: StaticImageData
+// }
+// const resume: Resume[] = [
+//   {
+//     company: '深圳市佐玩信息技术有限公司',
+//     title: '创始人 CEO',
+//     logo: zolplayLogo,
+//     start: '2021',
+//     end: {
+//       label: '至今',
+//       dateTime: new Date().getFullYear(),
+//     },
+//   },
+//   {
+//     company: 'very very spaceship',
+//     title: '软件工程师',
+//     logo: vvsLogo,
+//     start: '2018',
+//     end: '2020',
+//   },
+//   {
+//     company: '8ninths Inc.',
+//     title: 'AR & 全栈工程师',
+//     logo: eightNinthsLogo,
+//     start: '2017',
+//     end: '2018',
+//   },
+//   {
+//     company: 'Abletive',
+//     title: '创始人',
+//     logo: abletiveLogo,
+//     start: '2014',
+//     end: '2016',
+//   },
+// ]
 
-function getRoleDate(date: Resume['start'] | Resume['end'], label = true) {
-  if (typeof date === 'string') {
-    return date
-  }
+// function getRoleDate(date: Resume['start'] | Resume['end'], label = true) {
+//   if (typeof date === 'string') {
+//     return date
+//   }
 
-  if (label) {
-    return date.label
-  } else {
-    return String(date.dateTime)
-  }
-}
+//   if (label) {
+//     return date.label
+//   } else {
+//     return String(date.dateTime)
+//   }
+// }
 
 export function Resume() {
   return (
