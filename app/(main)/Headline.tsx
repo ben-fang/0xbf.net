@@ -99,11 +99,11 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://0xbf.net/twitter"
           aria-label="我的推特"
           platform="twitter"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://cali.so/youtube"
           aria-label="我的 YouTube"
           platform="youtube"
@@ -112,17 +112,17 @@ export function Headline() {
           href="https://cali.so/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
-        />
+        /> */}
         <SocialLink
-          href="https://cali.so/github"
+          href="https://0xbf.net/github"
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://cali.so/tg"
           aria-label="我的 Telegram"
           platform="telegram"
-        />
+        /> */}
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
           href="mailto:hi@cali.so"
