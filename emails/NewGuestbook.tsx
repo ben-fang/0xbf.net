@@ -6,7 +6,7 @@ import { Button, Heading, Hr, Img, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewGuestbookEmail = ({
-  link = 'https://caliso/guestbook',
+  link = 'https://0xbf.net/guestbook',
   userFirstName = 'Ben',
   userLastName = 'Fang',
   userImageUrl = 'https://cali.so/icon.png',

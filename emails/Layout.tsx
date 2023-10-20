@@ -44,7 +44,7 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://cali.so"
+                  href="https://0xbf.net"
                   className="text-zinc-700 underline"
                 >
                   <strong>Ben Fang</strong>
