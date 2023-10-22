@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>Ben Fang</strong>
                 </Link>
                 <br />
-                开发者、创始人
+                开发者
               </Text>
               <Text className="text-center">
                 <Link
