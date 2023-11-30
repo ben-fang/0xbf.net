@@ -12,15 +12,15 @@ const description =
 export const metadata = {
   title,
   description,
-  openGraph: {
-    title,
-    description,
-  },
-  twitter: {
-    title,
-    description,
-    card: 'summary_large_image',
-  },
+  // openGraph: {
+  //   title,
+  //   description,
+  // },
+  // twitter: {
+  //   title,
+  //   description,
+  //   card: 'summary_large_image',
+  // },
 } satisfies Metadata
 
 export default async function GuestBookPage() {
