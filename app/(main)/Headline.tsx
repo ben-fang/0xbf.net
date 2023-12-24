@@ -79,6 +79,7 @@ export function Headline() {
       >
         <Balancer>
 <<<<<<< HEAD
+<<<<<<< HEAD
           我是 Cali，
           <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
           创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
@@ -87,6 +88,10 @@ export function Headline() {
           我是 Ben，
           我热爱开发，创新，享受生活，以及在未知领域中探索。
 >>>>>>> 7bfc5e3 (Optimize personal infomation)
+=======
+          我是 Ben，
+          我热爱开发，创新，享受生活，以及在未知领域中探索。
+>>>>>>> 2c6e8bc7c390e2ca5a7ec398f5d9a8ce9931ce8a
         </Balancer>
       </motion.p>
       <motion.div
